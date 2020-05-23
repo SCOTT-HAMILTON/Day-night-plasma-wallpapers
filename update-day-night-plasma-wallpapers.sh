@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ "$(date +%H)" -ge 19 ]; then
+if [ "$(date +%H)" -ge 16 ]; then
 	WALLPAPERDIR="/usr/share/wallpapers/macOS-Mojave-Night"
 else
 	WALLPAPERDIR="/usr/share/wallpapers/macOS-Mojave-Light"
