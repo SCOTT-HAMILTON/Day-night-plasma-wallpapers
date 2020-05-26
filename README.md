@@ -118,6 +118,6 @@ in
  * Manage multiple wallpapers
 
 # Recommandations
-This package works well with the macMojave desert wall papers : 
+This package works well with the macMojave desert Wallpapers : 
 ![MacMojave Day wallpaper](https://github.com/SCOTT-HAMILTON/Ressources/raw/master/Day-night-plasma-wallpapers/macMojaveWallPapers/macOS-Mojave-Day-wallpaper.jpg)
 ![MacMojave Night wallpaper](https://github.com/SCOTT-HAMILTON/Ressources/blob/master/Day-night-plasma-wallpapers/macMojaveWallPapers/macOS-Mojave-Night-wallpaper.jpg)
