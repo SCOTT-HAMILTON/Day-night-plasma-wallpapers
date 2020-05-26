@@ -4,9 +4,9 @@
 sleep 10
 
 if [ "$(date +%H)" -ge 16 ]; then
-	WALLPAPERDIR="~/local/share/wallpapers/Night"
+	WALLPAPERDIR="$HOME/.local/share/wallpapers/Night"
 else
-	WALLPAPERDIR="~/.local/share/wallpapers/Light"
+	WALLPAPERDIR="$HOME/.local/share/wallpapers/Light"
 fi
 
 qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript 'var allDesktops = desktops();
