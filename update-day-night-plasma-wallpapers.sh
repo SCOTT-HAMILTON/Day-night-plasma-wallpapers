@@ -1,9 +1,12 @@
 #!/bin/sh
 
+# Wait until plasma is loaded
+sleep 10
+
 if [ "$(date +%H)" -ge 16 ]; then
-	WALLPAPERDIR="/usr/share/wallpapers/macOS-Mojave-Night"
+	WALLPAPERDIR="~/local/wallpapers/macOS-Mojave-Night"
 else
-	WALLPAPERDIR="/usr/share/wallpapers/macOS-Mojave-Light"
+	WALLPAPERDIR="~/.local/wallpapers/macOS-Mojave-Light"
 fi
 
 qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript 'var allDesktops = desktops();
