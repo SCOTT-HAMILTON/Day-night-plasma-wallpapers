@@ -11,14 +11,14 @@ you want when working at night.
 # Requirements
  - A plasma 5 desktop environment
  - qdbus (in qttools package)
+ - home-manager [here](https://github.com/rycee/home-manager)
 
 # Configuration
  - Create the directories Night and Light in ~/.local/share/wallpapers
  - Put your day wallpaper in ~/.local/share/wallapers/Light
  - Put you night wallpaper in ~/.local/share/wallpapers/Night
 
-# Installing (Nix or NixOS only)
-## Home-manager setup (recommanded)
+# Installing (Nix or NixOS only) with home-manager
 It is recommanded to use the home-manager setup as it's the easiest.
 
 The first thing to add to your home.nix file is to import the the nur-no-packages repo : 
@@ -119,5 +119,5 @@ in
 
 # Recommandations
 This package works well with the macMojave desert wall papers : 
-[MacMojave day wallpaper](https://github.com/SCOTT-HAMILTON/Ressources/raw/master/Day-night-plasma-wallpapers/macMojaveWallPapers/macOS-Mojave-Day-wallpaper.jpg)
-[MacMojave night wallpaper](https://github.com/SCOTT-HAMILTON/Ressources/blob/master/Day-night-plasma-wallpapers/macMojaveWallPapers/macOS-Mojave-Night-wallpaper.jpg)
+![MacMojave Day wallpaper](https://github.com/SCOTT-HAMILTON/Ressources/raw/master/Day-night-plasma-wallpapers/macMojaveWallPapers/macOS-Mojave-Day-wallpaper.jpg)
+![MacMojave Night wallpaper](https://github.com/SCOTT-HAMILTON/Ressources/blob/master/Day-night-plasma-wallpapers/macMojaveWallPapers/macOS-Mojave-Night-wallpaper.jpg)
