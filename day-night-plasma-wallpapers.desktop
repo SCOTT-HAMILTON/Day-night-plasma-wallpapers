@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Day-night-plasma-wallpapers
-Comment=Updates to Day/Night wallpaper
-Exec=/bin/update-day-night-plasma-wallpapers.sh
-Type=Application
-StartupNotify=false
-Terminal=false
