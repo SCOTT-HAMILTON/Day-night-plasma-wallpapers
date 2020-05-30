@@ -107,6 +107,9 @@ in
   services.day-night-plasma-wallpapers.enable = true;
 }
 ```
+Last thing to do is to tell systemd to start the timer.
+(Which cannot be automated in the module, if you know how, please tell me).
+`$ systemctl --user start day-night-plasma-wallpaper.timer`
 
 # TODO
  * Make a configuration system
